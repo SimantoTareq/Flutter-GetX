@@ -101,8 +101,8 @@ class _DetailPageState extends State<DetailPage> {
                           Text(
                             "Top Level",
                             style: TextStyle(
-                                color: Color(0xFFfdebb2),
-                                fontSize: 12,
+                                color: Color.fromARGB(39, 197, 81, 23),
+                                fontSize: 16,
                                 decoration: TextDecoration.none),
                           ),
                         ],
@@ -135,7 +135,7 @@ class _DetailPageState extends State<DetailPage> {
               child: Container(
                 width: 80,
                 height: 80,
-                color: Color(0xFFf9fbfc),
+                color: Color.fromARGB(255, 252, 249, 249),
               ),
             ),
             Positioned(
